@@ -13,7 +13,7 @@ A easy stopwatch web software built with HTML, CSS, and VanillaJavaScript. This 
 ![Screenshot (Pause)](https://github.com/PranavaSwarupan/CodingNinjas-SkillTests-StopWatch/assets/144361971/492624c5-ef54-4c5c-be86-a13c7595c43f)
 
 
-To use the stopwatch app, simply open the `index.Html` record on your net browser.
+To use the stopwatch app, simply open the `MainPage.Html` record on your net browser.
 
 - Click the "Start" button to begin the timer. If the timer is already going for walks, the button will alternate to "Pause," permitting you to pause the timer. Click "Pause" again to resume.
 - Click the "Stop" button to stop the timer.
