@@ -1,0 +1,60 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f0f0f0;
+}
+
+.stopwatch {
+    text-align: center;
+}
+
+.container {
+    background-color: #2a3d91; /* Background color for the container */
+    padding: 20px; /* Add some spacing around the stopwatch */
+    border-radius: 15px; /* Rounded corners for the container */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); /* Box shadow for a subtle elevation effect */
+}
+
+.display {
+    background-color: #dac5c5;
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 24px;
+    color: #b51c1c;
+}
+
+.controls {
+    margin-top: 20px;
+}
+
+.controls button {
+    appearance: button;
+    border: solid transparent;
+    border-radius: 16px;
+    border-width: 0 0 4px;
+    box-sizing: border-box;
+    font-size: 1rem;
+    padding: 10px 20px;
+    text-align: center;
+    text-transform: uppercase;
+    touch-action: manipulation;
+    transform: translateZ(0);
+    transition: filter .2s;
+    margin: 0 5px;
+    background-color: #97685bd6;
+    color: #fff;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.controls button:hover {
+    background-color: #b73011;
+}
